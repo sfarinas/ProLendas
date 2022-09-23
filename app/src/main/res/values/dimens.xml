@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="larg_val_hab">60dp</dimen>
-    <dimen name="alt_val_hab">43dp</dimen>
-    <dimen name="larg_text_hab">122dp</dimen>
-    <dimen name="alt_text_hab">43dp</dimen>
-</resources>
