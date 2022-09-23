@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorfundo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="423dp"
+        android:layout_height="257dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:srcCompat="@drawable/logo" />
+
+    <!--   COMENTARIO -->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Sobre a CPL"
+        android:textColor="@color/colorLetra"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="01/05/2020"
+        android:textColor="@color/colorLetra"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="359dp"
+        android:layout_height="457dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/a_confedera_o_campeonatos_pro_lendas_de_clubes_de_futebol_virtual_cpl_uma_institui_o_civil_registrada_no_cnpj_33_570_429_0001_73_nano_technology_legalmente_constitu_do_sem_fins_lucrativos_que_foi_criada_em_abril_de_2020_visando_unificar_os_jogadores_de_lobby_em_equipe_de_toda_a_am_rica_latina_a_cpl_tem_como_presidente_salom_o_dantas_farina_tendo_realizado_o_primeiro_campeonato_onde_obtemos_sucesso_resolvemos_unir_for_as_e_fazermos_algo_novo_para_os_players_do_lobby_em_equipe_o_compromisso_da_cpl_em_defender_os_interesses_da_confedera_o_vem_com_este_projeto_de_oficializar_o_esporte_digital_que_vem_crescendo_ap_s_a_covid19_que_atingiu_toda_a_humanidade_com_interesse_de_unificar_v_rios_clubes_virtuais_e_com_portas_abertas_para_clubes_reais_que_tenham_interesse_em_se_unir_ou_aproveitar_atletas_j_escritos_em_nossos_torneios_nossa_confedera_o_pretende_consolidar_de_vez_o_nosso_pa_s_no_cen_rio_mundial_de_grandes_centros_de_futebol_virtual_espera_se_com_uma_estrutura_profissional_e_organizada_dentro_do_mbito_legal_desmistificar_a_imagem_de_futebol_virtual_destinado_para_crian_as_um_hobby_que_h_muito_tempo_deixou_de_ser_infantil_e_com_a_ajuda_de_todos_em_um_curto_espa_o_de_tempo_se_tornar_um_desporto_nacional_bem_divulgado_com_futuras_federa_es_em_todos_estados_e_com_um_grande_n_mero_de_adeptos"
+        android:textColor="@color/colorLetra"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/conti1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="continue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/pula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="pular"
+        app:layout_constraintBaseline_toBaselineOf="@+id/conti1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

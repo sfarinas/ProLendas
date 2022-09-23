@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagePerfilAtleta"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/perfil" />
+
+    <TextView
+        android:id="@+id/textPosicao"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="POSICAO :  "
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textOverall"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/search_layover_bg"
+        android:text="OVERALL :  "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textGamertag"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/search_layover_bg"
+        android:text="GAMERTAG :  "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDefesa"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="QTD DEFESAS :  "
+        android:textColor="@color/colorLetra"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDesarme"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="QTD DESARMES :  "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textAssistencia"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="QTD ASSISTENCIAS :  "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textGol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="QTD GOLS :  "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textCelu"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="CELULAR :  "
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textGolTempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/search_layover_bg"
+        android:text="QTD GOL TEMPO :  "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textGolClube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/search_layover_bg"
+        android:text="QTD GOL CLUBE :  "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textValorMercado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/search_layover_bg"
+        android:text="VALOR MERCADO :  "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textValorCompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/search_layover_bg"
+        android:text="VALOR COMPRA :  "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textCartaoTempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/search_layover_bg"
+        android:text="CARTAO TEMPO :  "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textClube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/search_layover_bg"
+        android:text="CLUBE  :  "
+        android:textColor="@color/colorLetra"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOME :  "
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textSobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOBRENOME :  "
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <include
+        layout="@layout/divisor"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:background="@drawable/rumo"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9825390915193711/8931717700"></com.google.android.gms.ads.AdView>
+
+</LinearLayout>

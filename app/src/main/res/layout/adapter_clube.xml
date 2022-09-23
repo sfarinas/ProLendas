@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagePerfilAtleta"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/perfil" />
+
+    <TextView
+        android:id="@+id/textPosicao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="POSICAO"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textOverall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="OVERALL"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textGamertag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="GAMERTAG"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textDefesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="QTD DEFESAS"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textDesarme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="QTD DESARMES"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textAssistencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="QTD ASSISTENCIAS"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textGol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="QTD GOLS"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textCelu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="CELULAR"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textGolTempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="QTD GOL TEMPO."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textGolClube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="QTD GOL CLUBE"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textValorMercado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="VALOR MERCADO"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textValorCompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="VALOR COMPRA"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textCartaoTempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="CARTAO TEMPO."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textClube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="CLUBE "
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOME"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textSobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOBRENOME"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <include
+        layout="@layout/divisor"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+</LinearLayout>
