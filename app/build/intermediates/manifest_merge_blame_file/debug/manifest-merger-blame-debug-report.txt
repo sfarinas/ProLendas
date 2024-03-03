@@ -1,0 +1,355 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.prolendas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:25:5-68
+13-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:26:5-110
+14-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:26:22-107
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:26:22-79
+16
+17    <permission
+17-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:28:5-30:47
+18        android:name="com.example.prolendas.permission.C2D_MESSAGE"
+18-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:29:9-63
+19        android:protectionLevel="signature" />
+19-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:30:9-44
+20
+21    <uses-permission android:name="com.example.prolendas.permission.C2D_MESSAGE" />
+21-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:32:5-79
+21-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:32:22-76
+22
+23    <application
+23-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:7:5-75:19
+24        android:allowBackup="true"
+24-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:8:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/290377ef3f04af0b2bf13aa0b54ad202/core-1.1.0/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:10:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:11:9-54
+30        android:supportsRtl="true"
+30-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:12:9-35
+31        android:theme="@style/AppTheme" >
+31-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:13:9-40
+32
+33        <!-- TESTE AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+34        <!-- REAL AdMob App ID: ca-app-pub-9825390915193711~3767242704 -->
+35        <meta-data
+35-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:18:9-20:69
+36            android:name="com.google.android.gms.ads.APPLICATION_ID"
+36-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:19:13-69
+37            android:value="ca-app-pub-9825390915193711~3767242704" />
+37-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:20:13-67
+38
+39        <activity
+39-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:23:9-24:62
+40            android:name="com.example.prolendas.ElencoActivity"
+40-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:23:19-49
+41            android:parentActivityName="com.example.prolendas.PosLoginActivity" />
+41-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:24:13-59
+42        <activity
+42-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:25:9-27:68
+43            android:name="com.example.prolendas.CardapioActivity"
+43-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:26:13-45
+44            android:parentActivityName="com.example.prolendas.AtletaPesquisaActivity" />
+44-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:27:13-65
+45        <activity
+45-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:28:9-30:62
+46            android:name="com.example.prolendas.AtletaPesquisaActivity"
+46-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:29:13-51
+47            android:parentActivityName="com.example.prolendas.PosLoginActivity" />
+47-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:30:13-59
+48        <activity
+48-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:31:9-33:62
+49            android:name="com.example.prolendas.ConfiguracoesUsuariosActivity"
+49-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:32:13-58
+50            android:parentActivityName="com.example.prolendas.PosLoginActivity" />
+50-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:33:13-59
+51        <activity
+51-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:34:9-36:63
+52            android:name="com.example.prolendas.NovaVendaClubeActivity"
+52-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:35:13-51
+53            android:parentActivityName="com.example.prolendas.PosClubesActivity" />
+53-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:36:13-60
+54        <activity
+54-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:37:9-39:63
+55            android:name="com.example.prolendas.ConfiguracoesClubeActivity"
+55-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:38:13-55
+56            android:parentActivityName="com.example.prolendas.PosClubesActivity" />
+56-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:39:13-60
+57        <activity
+57-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:40:9-42:63
+58            android:name="com.example.prolendas.ComprarActivity"
+58-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:41:13-44
+59            android:parentActivityName="com.example.prolendas.PosClubesActivity" />
+59-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:42:13-60
+60        <activity
+60-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:43:9-45:63
+61            android:name="com.example.prolendas.VendasActivity"
+61-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:44:13-43
+62            android:parentActivityName="com.example.prolendas.PosClubesActivity" />
+62-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:45:13-60
+63        <activity android:name="com.example.prolendas.ClubeActivity" />
+63-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:46:9-51
+63-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:46:19-48
+64        <activity
+64-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:47:9-49:59
+65            android:name="com.example.prolendas.PosClubesActivity"
+65-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:48:13-46
+66            android:parentActivityName="com.example.prolendas.LoginActivity" />
+66-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:49:13-56
+67        <activity android:name="com.example.prolendas.ClubActivity" />
+67-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:50:9-50
+67-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:50:19-47
+68        <activity android:name="com.example.prolendas.XboxActivity" />
+68-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:51:9-50
+68-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:51:19-47
+69        <activity android:name="com.example.prolendas.AtletaActivity" />
+69-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:52:9-52
+69-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:52:19-49
+70        <activity
+70-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:53:9-55:59
+71            android:name="com.example.prolendas.PosLoginActivity"
+71-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:54:13-45
+72            android:parentActivityName="com.example.prolendas.LoginActivity" />
+72-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:55:13-56
+73        <activity android:name="com.example.prolendas.LoginActivity" />
+73-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:56:9-51
+73-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:56:19-48
+74        <activity
+74-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:57:9-59:50
+75            android:name="com.example.prolendas.QuartaActivity"
+75-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:58:13-43
+76            android:screenOrientation="sensor" />
+76-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:59:13-47
+77        <activity
+77-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:60:9-62:50
+78            android:name="com.example.prolendas.TerceiraActivity"
+78-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:61:13-45
+79            android:screenOrientation="sensor" />
+79-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:62:13-47
+80        <activity
+80-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:63:9-65:50
+81            android:name="com.example.prolendas.SegundaActivity"
+81-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:64:13-44
+82            android:screenOrientation="sensor" />
+82-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:65:13-47
+83        <activity
+83-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:66:9-74:20
+84            android:name="com.example.prolendas.MainActivity"
+84-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:67:13-41
+85            android:screenOrientation="sensor" >
+85-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:68:13-47
+86            <intent-filter>
+86-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:69:13-73:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:70:17-69
+87-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:70:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:72:17-77
+89-->/Users/sfarinas/AndroidStudioProjects/PROLENDAS/app/src/main/AndroidManifest.xml:72:27-74
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->[com.google.firebase:firebase-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0448fd515a32559232bade9ef26d5171/jetified-firebase-auth-15.0.0/AndroidManifest.xml:23:9-29:75
+93            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+93-->[com.google.firebase:firebase-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0448fd515a32559232bade9ef26d5171/jetified-firebase-auth-15.0.0/AndroidManifest.xml:24:13-85
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0448fd515a32559232bade9ef26d5171/jetified-firebase-auth-15.0.0/AndroidManifest.xml:25:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0448fd515a32559232bade9ef26d5171/jetified-firebase-auth-15.0.0/AndroidManifest.xml:26:13-36
+96            android:launchMode="singleInstance"
+96-->[com.google.firebase:firebase-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0448fd515a32559232bade9ef26d5171/jetified-firebase-auth-15.0.0/AndroidManifest.xml:27:13-48
+97            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+97-->[com.google.firebase:firebase-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0448fd515a32559232bade9ef26d5171/jetified-firebase-auth-15.0.0/AndroidManifest.xml:28:13-102
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.firebase:firebase-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0448fd515a32559232bade9ef26d5171/jetified-firebase-auth-15.0.0/AndroidManifest.xml:29:13-72
+99        <activity
+99-->[com.google.android.gms:play-services-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/2cfd9630e9406c958acf71e4eb5554f2/jetified-play-services-auth-15.0.0/AndroidManifest.xml:23:9-27:75
+100            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+100-->[com.google.android.gms:play-services-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/2cfd9630e9406c958acf71e4eb5554f2/jetified-play-services-auth-15.0.0/AndroidManifest.xml:24:13-93
+101            android:excludeFromRecents="true"
+101-->[com.google.android.gms:play-services-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/2cfd9630e9406c958acf71e4eb5554f2/jetified-play-services-auth-15.0.0/AndroidManifest.xml:25:13-46
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/2cfd9630e9406c958acf71e4eb5554f2/jetified-play-services-auth-15.0.0/AndroidManifest.xml:26:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/2cfd9630e9406c958acf71e4eb5554f2/jetified-play-services-auth-15.0.0/AndroidManifest.xml:27:13-72
+104        <!--
+105            Service handling Google Sign-In user revocation. For apps that do not integrate with
+106            Google Sign-In, this service will never be started.
+107        -->
+108        <service
+108-->[com.google.android.gms:play-services-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/2cfd9630e9406c958acf71e4eb5554f2/jetified-play-services-auth-15.0.0/AndroidManifest.xml:33:9-36:110
+109            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+109-->[com.google.android.gms:play-services-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/2cfd9630e9406c958acf71e4eb5554f2/jetified-play-services-auth-15.0.0/AndroidManifest.xml:34:13-89
+110            android:exported="true"
+110-->[com.google.android.gms:play-services-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/2cfd9630e9406c958acf71e4eb5554f2/jetified-play-services-auth-15.0.0/AndroidManifest.xml:35:13-36
+111            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+111-->[com.google.android.gms:play-services-auth:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/2cfd9630e9406c958acf71e4eb5554f2/jetified-play-services-auth-15.0.0/AndroidManifest.xml:36:13-107
+112
+113        <provider
+113-->[com.squareup.picasso:picasso:2.71828] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/3c3793594615bff15d97ecafb8510a7e/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+114            android:name="com.squareup.picasso.PicassoProvider"
+114-->[com.squareup.picasso:picasso:2.71828] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/3c3793594615bff15d97ecafb8510a7e/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+115            android:authorities="com.example.prolendas.com.squareup.picasso"
+115-->[com.squareup.picasso:picasso:2.71828] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/3c3793594615bff15d97ecafb8510a7e/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+116            android:exported="false" />
+116-->[com.squareup.picasso:picasso:2.71828] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/3c3793594615bff15d97ecafb8510a7e/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+117
+118        <receiver
+118-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:29:9-33:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+119-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:30:13-85
+120            android:enabled="true"
+120-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:31:13-35
+121            android:exported="false" >
+121-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:32:13-37
+122        </receiver>
+123        <receiver
+123-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:34:9-42:20
+124            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+124-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:35:13-100
+125            android:enabled="true"
+125-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:36:13-35
+126            android:exported="true"
+126-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:37:13-36
+127            android:permission="android.permission.INSTALL_PACKAGES" >
+127-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:38:13-69
+128            <intent-filter>
+128-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:39:13-41:29
+129                <action android:name="com.android.vending.INSTALL_REFERRER" />
+129-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:40:17-79
+129-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:40:25-76
+130            </intent-filter>
+131        </receiver>
+132
+133        <service
+133-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:44:9-47:40
+134            android:name="com.google.android.gms.measurement.AppMeasurementService"
+134-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:45:13-84
+135            android:enabled="true"
+135-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:46:13-35
+136            android:exported="false" />
+136-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:47:13-37
+137        <service
+137-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:48:9-52:72
+138            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+138-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:49:13-87
+139            android:enabled="true"
+139-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:50:13-35
+140            android:exported="false"
+140-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:51:13-37
+141            android:permission="android.permission.BIND_JOB_SERVICE" />
+141-->[com.google.firebase:firebase-analytics:15.0.2] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/54afa0d10b1814a8104af3fe1cc669b0/jetified-firebase-analytics-15.0.2/AndroidManifest.xml:52:13-69
+142        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+142-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:35:9-39:19
+142-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:35:18-89
+143            <meta-data
+143-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:36:13-38:85
+144                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+144-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:37:17-96
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:38:17-82
+146        </service>
+147
+148        <receiver
+148-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:41:9-50:20
+149            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+149-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:42:13-78
+150            android:exported="true"
+150-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:43:13-36
+151            android:permission="com.google.android.c2dm.permission.SEND" >
+151-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:44:13-73
+152            <intent-filter>
+152-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:45:13-49:29
+153                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+153-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:46:17-81
+153-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:46:25-78
+154
+155                <category android:name="com.example.prolendas" />
+155-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:48:17-61
+155-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:48:27-58
+156            </intent-filter>
+157        </receiver>
+158        <!--
+159             FirebaseInstanceIdService performs security checks at runtime,
+160             no need for explicit permissions despite exported="true"
+161        -->
+162        <service
+162-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:56:9-62:19
+163            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+163-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:57:13-77
+164            android:exported="true" >
+164-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:58:13-36
+165            <intent-filter android:priority="-500" >
+165-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:59:13-61:29
+165-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:59:28-51
+166                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+166-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:60:17-80
+166-->[com.google.firebase:firebase-iid:15.1.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/a915606745e08b480129432805bf8f47/jetified-firebase-iid-15.1.0/AndroidManifest.xml:60:25-77
+167            </intent-filter>
+168        </service>
+169
+170        <provider
+170-->[com.google.firebase:firebase-common:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/d9348443d7ade364cd3f506ae76134e9/jetified-firebase-common-15.0.1/AndroidManifest.xml:8:9-12:39
+171            android:name="com.google.firebase.provider.FirebaseInitProvider"
+171-->[com.google.firebase:firebase-common:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/d9348443d7ade364cd3f506ae76134e9/jetified-firebase-common-15.0.1/AndroidManifest.xml:9:13-77
+172            android:authorities="com.example.prolendas.firebaseinitprovider"
+172-->[com.google.firebase:firebase-common:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/d9348443d7ade364cd3f506ae76134e9/jetified-firebase-common-15.0.1/AndroidManifest.xml:10:13-72
+173            android:exported="false"
+173-->[com.google.firebase:firebase-common:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/d9348443d7ade364cd3f506ae76134e9/jetified-firebase-common-15.0.1/AndroidManifest.xml:11:13-37
+174            android:initOrder="100" />
+174-->[com.google.firebase:firebase-common:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/d9348443d7ade364cd3f506ae76134e9/jetified-firebase-common-15.0.1/AndroidManifest.xml:12:13-36
+175
+176        <activity
+176-->[com.google.android.gms:play-services-base:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/66ee02b23e6b2c1e753b0972d94b3b52/jetified-play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+177            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+177-->[com.google.android.gms:play-services-base:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/66ee02b23e6b2c1e753b0972d94b3b52/jetified-play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-base:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/66ee02b23e6b2c1e753b0972d94b3b52/jetified-play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+179-->[com.google.android.gms:play-services-base:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/66ee02b23e6b2c1e753b0972d94b3b52/jetified-play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+180        <activity
+180-->[com.google.android.gms:play-services-ads-lite:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0f12cb7cc5a63449c924baf1921d5100/jetified-play-services-ads-lite-15.0.0/AndroidManifest.xml:29:9-33:64
+181            android:name="com.google.android.gms.ads.AdActivity"
+181-->[com.google.android.gms:play-services-ads-lite:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0f12cb7cc5a63449c924baf1921d5100/jetified-play-services-ads-lite-15.0.0/AndroidManifest.xml:30:13-65
+182            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+182-->[com.google.android.gms:play-services-ads-lite:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0f12cb7cc5a63449c924baf1921d5100/jetified-play-services-ads-lite-15.0.0/AndroidManifest.xml:31:13-122
+183            android:exported="false"
+183-->[com.google.android.gms:play-services-ads-lite:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0f12cb7cc5a63449c924baf1921d5100/jetified-play-services-ads-lite-15.0.0/AndroidManifest.xml:32:13-37
+184            android:theme="@android:style/Theme.Translucent" />
+184-->[com.google.android.gms:play-services-ads-lite:15.0.0] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/0f12cb7cc5a63449c924baf1921d5100/jetified-play-services-ads-lite-15.0.0/AndroidManifest.xml:33:13-61
+185
+186        <meta-data
+186-->[com.google.android.gms:play-services-basement:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/56fe8647edb02937ae92ef6ec1c81fa0/jetified-play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+187            android:name="com.google.android.gms.version"
+187-->[com.google.android.gms:play-services-basement:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/56fe8647edb02937ae92ef6ec1c81fa0/jetified-play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+188            android:value="@integer/google_play_services_version" />
+188-->[com.google.android.gms:play-services-basement:15.0.1] /Users/sfarinas/.gradle/caches/transforms-2/files-2.1/56fe8647edb02937ae92ef6ec1c81fa0/jetified-play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+189    </application>
+190
+191</manifest>
